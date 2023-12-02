@@ -11,7 +11,7 @@ class Animal {
     }
 
     makeSound() {
-        console.log(`The ${Species} makes a sound`);
+        console.log(`The ${species} makes a sound`);
     }
 }
 
