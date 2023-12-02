@@ -10,17 +10,23 @@ class Animal {
     }
 
     makeSound(){
-        console.log("Some generic animal sound");
+        console.log("sound the animal makes");
     }
 }
 
 class Cat extends Animal {
+	constructor(species){
+		super(species);
+	}
     purr(){
         console.log("purr");
     }
 }
 
 class Dog extends Animal {
+	constructor(species){
+		super(species);
+	}
     bark(){
         console.log("woof");
     }
